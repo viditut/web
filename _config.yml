@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: Viditut is a website that provides tutorial about SEO, Internet Marketing &amp; Webmaster. Learn easily how to find traffic, make money and create website.
 baseurl: ""
 url: "https://viditut.com"
-sitecdn: "//cdn.viditut.com/"
+sitecdn: "//cdn.viditut.com"
 twitter_username: Viditut
 permalink: /:categories/:title/
 

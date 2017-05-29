@@ -7,15 +7,15 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="{{ site.sitecdn }}js/bootstrap.min.js"></script>
-<script src="{{ site.sitecdn }}js/app.min.js"></script>
+<script src="{{ site.sitecdn }}/js/bootstrap.min.js"></script>
+<script src="{{ site.sitecdn }}/js/app.min.js"></script>
 {% if page.layout == 'post' %}
-<script src="{{ site.sitecdn }}js/slider.js"></script>
-<script src="{{ site.sitecdn }}player/jwplayer.js"></script>
+<script src="{{ site.sitecdn }}/js/slider.js"></script>
+<script src="{{ site.sitecdn }}/player/jwplayer.js"></script>
 <script type="text/javaScript">
 jwplayer("player").setup({
 	skin: {
-		"url":"{{ site.sitecdn }}player/skins/tubex.css",
+		"url":"{{ site.sitecdn }}player/jw/skins/tubex.css",
 		"name": "tubex"
 	},
 	playlist: [{
@@ -33,7 +33,7 @@ jwplayer("player").setup({
 	}],
 	autostart: false,
 	primary: "html5",
-	flashplayer: "{{ site.sitecdn }}player/jwplayer.flash.swf",
+	flashplayer: "{{ site.sitecdn }}/player/jw/jwplayer.flash.swf",
 	preload: "metadata",
 	stretching: "exactfit",
 	width: "100%",
