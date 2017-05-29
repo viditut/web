@@ -1,0 +1,31 @@
+---
+layout: default
+---
+	<section class="content-header">
+      <h1>Blank page <small>it all starts here</small></h1>
+      <ol class="breadcrumb">
+        <li><a href="{{ site.url }}"><i class="fa fa-home"></i> Home</a></li>
+        <li class="active">Blank page</li>
+      </ol>
+    </section>
+    <section class="content">	
+		{{ content }}
+		<div class="row">
+		{% for post in site.posts %}
+			<div class="col-md-3">
+				<div class="box box-solid list-video">
+					<a href="{{ post.url | relative_url }}">
+					<div class="video-thumb">
+						<img src="{{ site.sitecdn }}img/spacer.gif" data-original="{{ post.thumb }}" alt="..." class="img-responsive">
+						<span class="video-play" aria-hidden="true"><i class="fa fa-play-circle"></i></span>
+						<span class="video-time" aria-hidden="true"><i class="fa fa-clock-o"></i> {{ post.video-time }}</span>
+					</div>
+					<div class="box-body">
+						<span class="video-title">{{ post.title | escape }}</span>
+					</div>
+					</a>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+    </section>

@@ -1,1 +1,28 @@
-theme: jekyll-theme-minimal
+name: Viditut
+title: Internet Marketing, Web Developer & Online Business Tutorial
+email: your-email@domain.com
+description: Viditut is a website that provides tutorial about SEO, Internet Marketing &amp; Webmaster. Learn easily how to find traffic, make money and create website.
+baseurl: ""
+url: "https://viditut.com"
+sitecdn: "//cdn.viditut.com/"
+twitter_username: Viditut
+permalink: /:categories/:title/
+
+author:
+  name: Viditut
+  email: "youremail@domain.com"
+  facebook: yourname  # eg. daattali
+  twitter: Viditut
+  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
+  linkedin: yourname  # eg. daattali
+  instagram: yourname # eg. daattali
+  youtube: yourlink   # eg. user/daattali or channel/daattali
+ 
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
